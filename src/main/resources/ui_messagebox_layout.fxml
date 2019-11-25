@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="160.0" prefWidth="340.0" styleClass="frame" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui_messagebox.ui_messagebox_control">
+   <children>
+      <Button layoutX="306.0" layoutY="2.0" mnemonicParsing="false" onAction="#btn_msg_exit_click" prefHeight="29.0" prefWidth="26.0" styleClass="btn_exit" stylesheets="@ui_messagebox_style.css" text="×" textFill="#c3c3c3">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="232.0" layoutY="128.0" mnemonicParsing="false" onAction="#btn_msg_yes_click" prefHeight="25.0" prefWidth="50.0" styleClass="btn" stylesheets="@ui_messagebox_style.css" text="确认" />
+      <Button layoutX="287.0" layoutY="128.0" mnemonicParsing="false" onAction="#btn_msg_cancel_click" prefHeight="25.0" prefWidth="50.0" styleClass="btn" stylesheets="@ui_messagebox_style.css" text="取消" />
+      <Label fx:id="lab_msg_title" layoutX="5.0" layoutY="4.0" prefHeight="25.0" prefWidth="270.0" text="Label" textFill="#fffefe" />
+      <Label fx:id="lab_msg_text" contentDisplay="CENTER" layoutX="44.0" layoutY="65.0" prefHeight="15.0" prefWidth="240.0" text="Label" textAlignment="CENTER" textFill="#fff9f9" textOverrun="CENTER_ELLIPSIS" wrapText="true" />
+   </children>
+</AnchorPane>
